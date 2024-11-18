@@ -29,20 +29,19 @@ const Blog = () => {
     ]
     return (
         <>
-            <div className='mt-24 text-center font-bold text-3xl'>Blog</div>
+            <div className='mt-24 text-center font-bold text-3xl font-serif'>Blog</div>
             {blogData.map((data, index) => {
                 return (
-
                     <a href={data.link} target="_blank" rel="noopener noreferrer">
-                        <div className="bg-white p-6 mt-4 rounded-lg shadow-lg max-w-2xl mx-auto border-b-2 border-gray-300 hover:shadow-xl transition-shadow duration-200">
-                            <h2 className="text-xl font-bold text-gray-900 mb-4 hover:text-pink-600">
+                        <div className="bg-white p-6 mt-4 rounded-lg shadow-lg max-w-2xl mx-auto border-b-2 border-gray-300 hover:shadow-xl hover:bg-pink-100 transition-shadow duration-200">
+                            <h2 className="text-xl font-bold font-serif text-gray-900 mb-4 hover:text-pink-600 ">
                                 {data.blogName}
                             </h2>
-                            <div className="flex text-sm mb-4">
+                            <div className="flex text-sm mb-4 font-serif">
                                 <span className="text-black font-semibold mr-3">{data.date}  ||</span>
                                 <span className="text-pink-600"> {data.for}</span>
                             </div>
-                            <p className="text-gray-700 line-clamp-2">
+                            <p className="text-gray-700 line-clamp-2 font-serif">
                                 {data.desc}
                             </p>
 

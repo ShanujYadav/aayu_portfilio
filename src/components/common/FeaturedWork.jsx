@@ -1,5 +1,4 @@
 import React from 'react'
-import img from '../../assets/image1.PNG'
 import { FaTwitter } from "react-icons/fa";
 
 
@@ -9,7 +8,6 @@ const FeaturedWork = () => {
             <div class="flex justify-center items-center">
                 <h6 class="text-black text-2xl font-semibold font-serif">Featured Work</h6>
             </div>
-
             <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl m-5">
                 <div class="md:flex">
                     <div class="md:flex-shrink-0">
